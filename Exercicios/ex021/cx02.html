@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: cornflowerblue;
+            text-align: left;
+            
+        }
+        head{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+           
+        }
+        nav{
+            
+            background-color: rgba(87, 93, 170, 0.61);
+            padding: 4px;      
+            box-shadow: 1px 1px 1px black;
+            border-radius: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            padding: 10px;
+            color: aliceblue;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: rgba(0, 0, 255, 0.459);
+            border-radius: 10px;
+        }
+      
+        article > aside > h2 {
+            text-align: center;
+        }
+        article > aside {
+            background-color: black;
+            color: aliceblue;
+            text-align: justify;
+            padding: 1px;
+            margin: 1px;
+            border-radius: 04px;
+        } 
+        article > aside > div > p {
+           text-align: center;
+
+        }
+
+        footer { 
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        
+        footer > p {
+            margin: 0px;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Histórias</a>
+            <a href="#">Noticias</a>
+            <a href="#">Redes Sociais</a>
+            <a href="#">Listas</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Teste de sessão</p>
+
+        </section>
+        <section id="Noticías">
+            <article>
+                <aside>
+                    <h2>Noticias Sobre Mim</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laudantium, officia, temporibus atque modi nam vitae dolorum voluptatum, dolorem cumque placeat magni ratione accusantium amet? Ab ratione at accusamus eos.</p>
+                </aside>
+                <aside>
+                    <div>
+                        <p>Artigo que eu escrever</p>
+                    </div>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+<p>Desenvolvido por Rafael de Jesus</p>
+    </footer>
+    
+</body>
+</html>
